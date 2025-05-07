@@ -1,0 +1,1037 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80edd6caba93514eb01722041fe50b4, type: 3}
+  m_Name: Random Brush
+  m_EditorClassIdentifier: 
+  m_Cells:
+  - m_Tile: {fileID: 11400000, guid: 67793fa28d211864a9fab0d661e6e544, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 83848d854c5444040a47051183523918, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: a5338635359b12f429874b0a9a866e95, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 7c3c8abecc548d64e851c9ea7a67eb89, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 77d986fb488c6a7479a5d3f0854f1a16, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: fcfe1f5246926564bb5b4a6a4f8fb1b9, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 06ae8442b654f3d49be267080b2cccec, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: e1c8654a3bcbf50429b6df1dfea6996e, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 91577ca7d096b0e45a2f06f74d6acae1, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: f40a328d82fd2104a924bb51f2d5c22d, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 5b9411442ffe8f147ac82df6192594fc, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: cb0f19e7ac92c7b42ad065d9035b86dc, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: db456301927cd414ea46d8a8fc44d920, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: e8a1c8fbaa622274ab9160dabfc69dc3, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 1812205ca77842f41bb89cfd3f9b20d1, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 3122718c5f563264a9a31e1eb35c4e53, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 8034798fb25f01e4fbc84d5187887f16, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 14af563139f3e044ba7a0bd433a1d8cb, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 3c00ef418ff4bf24f93a61f815ed97e6, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 6da351b9669b1314ba49cd141f884a72, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 54baf47ce63322b4aa4ea3e04d52a848, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: e4ffb0c3c40ae264ba2aa8a96c8b9a41, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 135bacbc5ff3115478779ab85854d753, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: d0e60231e2235684c90387cd76820fb2, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_TileChangeDataList: []
+  m_Size: {x: 3, y: 8, z: 1}
+  m_Pivot: {x: 2, y: 0, z: 0}
+  m_CanChangeZPosition: 0
+  m_FloodFillContiguousOnly: 1
+  m_LastPickedLayout: 0
+  m_LastPickedCellSwizzle: 0
+  m_LastPickedCellSize: {x: 1, y: 1, z: 0}
+  m_LastPickedCellGap: {x: 0, y: 0, z: 0}
+  randomTileSetSize: {x: 1, y: 1, z: 1}
+  randomTileSets:
+  - randomTiles:
+    - {fileID: 11400000, guid: 67793fa28d211864a9fab0d661e6e544, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 83848d854c5444040a47051183523918, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: a5338635359b12f429874b0a9a866e95, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 7c3c8abecc548d64e851c9ea7a67eb89, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 77d986fb488c6a7479a5d3f0854f1a16, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: fcfe1f5246926564bb5b4a6a4f8fb1b9, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 06ae8442b654f3d49be267080b2cccec, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: e1c8654a3bcbf50429b6df1dfea6996e, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 91577ca7d096b0e45a2f06f74d6acae1, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: f40a328d82fd2104a924bb51f2d5c22d, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 5b9411442ffe8f147ac82df6192594fc, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: cb0f19e7ac92c7b42ad065d9035b86dc, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: db456301927cd414ea46d8a8fc44d920, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: e8a1c8fbaa622274ab9160dabfc69dc3, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 1812205ca77842f41bb89cfd3f9b20d1, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 3122718c5f563264a9a31e1eb35c4e53, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 8034798fb25f01e4fbc84d5187887f16, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 14af563139f3e044ba7a0bd433a1d8cb, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 3c00ef418ff4bf24f93a61f815ed97e6, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 6da351b9669b1314ba49cd141f884a72, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 54baf47ce63322b4aa4ea3e04d52a848, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: e4ffb0c3c40ae264ba2aa8a96c8b9a41, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 135bacbc5ff3115478779ab85854d753, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: d0e60231e2235684c90387cd76820fb2, type: 2}
+  randomTileChangeDataSets:
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 67793fa28d211864a9fab0d661e6e544, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 83848d854c5444040a47051183523918, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: a5338635359b12f429874b0a9a866e95, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 7c3c8abecc548d64e851c9ea7a67eb89, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 77d986fb488c6a7479a5d3f0854f1a16, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: fcfe1f5246926564bb5b4a6a4f8fb1b9, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 06ae8442b654f3d49be267080b2cccec, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: e1c8654a3bcbf50429b6df1dfea6996e, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 91577ca7d096b0e45a2f06f74d6acae1, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: f40a328d82fd2104a924bb51f2d5c22d, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 5b9411442ffe8f147ac82df6192594fc, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: cb0f19e7ac92c7b42ad065d9035b86dc, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: db456301927cd414ea46d8a8fc44d920, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: e8a1c8fbaa622274ab9160dabfc69dc3, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 1812205ca77842f41bb89cfd3f9b20d1, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 3122718c5f563264a9a31e1eb35c4e53, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 8034798fb25f01e4fbc84d5187887f16, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 14af563139f3e044ba7a0bd433a1d8cb, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 3c00ef418ff4bf24f93a61f815ed97e6, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 6da351b9669b1314ba49cd141f884a72, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 54baf47ce63322b4aa4ea3e04d52a848, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: e4ffb0c3c40ae264ba2aa8a96c8b9a41, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: 135bacbc5ff3115478779ab85854d753, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  - randomTileChangeData:
+    - m_Position: {x: 0, y: 0, z: 0}
+      m_TileAsset: {fileID: 11400000, guid: d0e60231e2235684c90387cd76820fb2, type: 2}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+      m_Transform:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+  pickRandomTiles: 1
+  addToRandomTiles: 0
